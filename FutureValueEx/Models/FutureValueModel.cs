@@ -15,7 +15,7 @@ namespace FutureValueEx.Models {
             decimal monthlyInterestRate = YearlyInterestRate / 12 / 100;
             decimal futureValue = 0;
             for (int i = 0; i < months; i++) {
-                futureValue = (futureValue + monthlyInterestRate) *
+                futureValue = (futureValue + MonthlyInvestment) *
                               (1 + monthlyInterestRate);
             }
             return futureValue;
