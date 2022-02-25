@@ -9,6 +9,7 @@ namespace FutureValueEx.Models {
         public decimal MonthlyInvestment { get; set; }
         public decimal YearlyInterestRate { get; set; }
         public int Years { get; set; }
+        public decimal FutureValue { get; set; }
         //method
         public decimal CalculateFutureValue() {
 
